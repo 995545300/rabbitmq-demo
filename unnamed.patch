@@ -1,0 +1,19 @@
+Index: pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- pom.xml	(revision 3db4f036c41f79ad452d850fb68d036add024885)
++++ pom.xml	(date 1588921497580)
+@@ -35,6 +35,11 @@
+                 </exclusion>
+             </exclusions>
+         </dependency>
++        <dependency>
++            <groupId>com.rabbitmq</groupId>
++            <artifactId>amqp-client</artifactId>
++            <version>3.6.5</version>
++        </dependency>
+     </dependencies>
+ 
+     <build>
